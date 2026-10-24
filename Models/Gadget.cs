@@ -4,9 +4,9 @@ namespace GadgetInventory.Models
 {
     public class Gadget
     {
-        public int Id { get; set; } // what does this do?
+        public int Id { get; set; } 
 
-        [Required(ErrorMessage = "Brand name is required.")] // what is this? why no sem colon at the end?
+        [Required(ErrorMessage = "Brand name is required.")] 
         public string Brand { get; set; }
 
         [Required(ErrorMessage = "Model name is required.")]
